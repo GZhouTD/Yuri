@@ -4,21 +4,25 @@
 #include <sstream>
 #include "Readin.h"
 #include <math.h>
+#include "scicont.h"
+#include "Sdomain.h"
+
 using namespace std;
 
 int main() {
-    const double e_charge = 1.602176565e-19;
-    const double h_Plank = 6.62607004e-34;
-    const double c_speed = 299792458;
-    const double pi = M_PI;
+    vector<double> freq;
     Crystal crystal;
     Readin *readin = new Readin;
-    crystal = readin->reader("../crystal.dat");
+    crystal = readin->reader("/Users/gzhou/CLionProjects/Yuri/crystal.dat");
 
-    double wavelength = h_Plank*c_speed/ crystal.photon_en/e_charge;
+    double wavelength = h_Plank * c_speed / crystal.photon_en / e_charge;
     double w0 = 2 * pi * c_speed / wavelength;
-    double cf = w0 / 2 / pi ;
+    double cf = w0 / 2 / pi;
+    freq = readin->freqread("/Users/gzhou/CLionProjects/Yuri/freq.txt");
 
-
+  /*  for (auto it = freq.begin(); it != freq.end(); it++) {
+        cout << *it << endl;
+    }
+    */
     return 0;
 }

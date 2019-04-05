@@ -3,4 +3,4 @@ project(yuri)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(yuri main.cpp sciconst.h readin.cpp readin.h sdomain.cpp sdomain.h)
+add_executable(yuri main.cpp Readin.cpp Readin.h Sdomain.cpp Sdomain.h scicont.h)

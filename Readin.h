@@ -7,8 +7,8 @@
 #include <string>
 #include <fstream>
 #include <iostream>
-#include <complex>
 #include <vector>
+#include "scicont.h"
 using namespace std;
 typedef struct {
     double thickness;
@@ -19,20 +19,17 @@ typedef struct {
     double xi0;
     double xrh;
     double xih;
-    complex<double > ele_susH;
-    complex<double > ele_susHbar;
+    complex<double> ele_sus0;
+    complex<double> ele_susH;
+    complex<double> ele_susHbar;
 }Crystal;
-typedef struct {
-    vector<double> f;
-    int length;
-}freq;
+
 class Readin {
 public:
     Readin();
     virtual ~Readin();
     Crystal reader(string);
-private:
-    string author;
+    vector<double> freqread(string);
 };
 
 #endif //YURI_READIN_H
