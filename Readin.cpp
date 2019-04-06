@@ -54,10 +54,10 @@ Crystal Readin::reader(const string fname) {
      cout<<crystal.xrh<<endl;
      cout<<crystal.xih<<endl;
      */
-    crystal.ele_sus0 = (crystal.xr0, crystal.xi0);
-    crystal.ele_susH = (crystal.xrh, crystal.xih);
-    crystal.ele_susHbar = (pow(crystal.xrh, 2) - pow(crystal.xih, 2), 2 * abs(crystal.xrh * crystal.xih) * cos(pi)) /
-                          crystal.ele_susH;
+    crystal.ele_sus0 = crystal.xr0+I*crystal.xi0;
+    crystal.ele_susH = crystal.xrh+ I*crystal.xih;
+    crystal.ele_susHbar = (pow(crystal.xrh, 2) - pow(crystal.xih, 2)+I*2.0 * abs(crystal.xrh * crystal.xih) * cos(pi))/crystal.ele_susH;
+
     f2r.close();
     return crystal;
 }

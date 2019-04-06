@@ -13,20 +13,24 @@ fstream
 -
 iostream
 -
-complex
+vector
 -
+scicont.h
+C:/Users/GQZho/CLionProjects/yuri/scicont.h
 
-C:/Users/GQZho/CLionProjects/yuri/main.cpp
-iostream
--
-fstream
--
-string
--
-sstream
--
+C:/Users/GQZho/CLionProjects/yuri/Sdomain.h
 Readin.h
 C:/Users/GQZho/CLionProjects/yuri/Readin.h
+scicont.h
+C:/Users/GQZho/CLionProjects/yuri/scicont.h
 math.h
--
+C:/Users/GQZho/CLionProjects/yuri/math.h
+
+C:/Users/GQZho/CLionProjects/yuri/scicont.h
+complex
+C:/Users/GQZho/CLionProjects/yuri/complex
+
+C:/Users/GQZho/CLionProjects/yuri/sdomain.cpp
+Sdomain.h
+C:/Users/GQZho/CLionProjects/yuri/Sdomain.h
 

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/GQZho/CLionProjects/yuri/Readin.cpp" "C:/Users/GQZho/CLionProjects/yuri/cmake-build-debug/CMakeFiles/yuri.dir/Readin.cpp.obj"
   "C:/Users/GQZho/CLionProjects/yuri/main.cpp" "C:/Users/GQZho/CLionProjects/yuri/cmake-build-debug/CMakeFiles/yuri.dir/main.cpp.obj"
-  "C:/Users/GQZho/CLionProjects/yuri/Readin.cpp" "C:/Users/GQZho/CLionProjects/yuri/cmake-build-debug/CMakeFiles/yuri.dir/readin.cpp.obj"
   "C:/Users/GQZho/CLionProjects/yuri/sdomain.cpp" "C:/Users/GQZho/CLionProjects/yuri/cmake-build-debug/CMakeFiles/yuri.dir/sdomain.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
