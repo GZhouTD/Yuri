@@ -86,6 +86,12 @@
 		<Unit filename="C:/Users/GQZho/CLionProjects/yuri/Readin.h">
 			<Option target="yuri"/>
 		</Unit>
+		<Unit filename="C:/Users/GQZho/CLionProjects/yuri/Writeout.cpp">
+			<Option target="yuri"/>
+		</Unit>
+		<Unit filename="C:/Users/GQZho/CLionProjects/yuri/Writeout.h">
+			<Option target="yuri"/>
+		</Unit>
 		<Unit filename="C:/Users/GQZho/CLionProjects/yuri/main.cpp">
 			<Option target="yuri"/>
 		</Unit>

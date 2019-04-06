@@ -5,10 +5,18 @@ CMakeFiles/yuri.dir/Readin.cpp.obj: ../Readin.cpp
 CMakeFiles/yuri.dir/Readin.cpp.obj: ../Readin.h
 CMakeFiles/yuri.dir/Readin.cpp.obj: ../scicont.h
 
+CMakeFiles/yuri.dir/Writeout.cpp.obj: ../Readin.h
+CMakeFiles/yuri.dir/Writeout.cpp.obj: ../Writeout.cpp
+CMakeFiles/yuri.dir/Writeout.cpp.obj: ../Writeout.h
+CMakeFiles/yuri.dir/Writeout.cpp.obj: ../scicont.h
+CMakeFiles/yuri.dir/Writeout.cpp.obj: ../sdomain.h
+
 CMakeFiles/yuri.dir/main.cpp.obj: ../Readin.h
 CMakeFiles/yuri.dir/main.cpp.obj: ../Sdomain.h
+CMakeFiles/yuri.dir/main.cpp.obj: ../Writeout.h
 CMakeFiles/yuri.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/yuri.dir/main.cpp.obj: ../scicont.h
+CMakeFiles/yuri.dir/main.cpp.obj: ../sdomain.h
 
 CMakeFiles/yuri.dir/sdomain.cpp.obj: ../Readin.h
 CMakeFiles/yuri.dir/sdomain.cpp.obj: ../Sdomain.h

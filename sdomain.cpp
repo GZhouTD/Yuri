@@ -44,7 +44,7 @@ RT Sdomain::interaction(Crystal crystal, vector<double> freq) {
         R2 = G*Y2;
         tR00 = exp(I*(crystal.ele_sus0*wave_num*crystal.thickness/2.0/gamma0+A/2.0*Y1))*(R2-R1)/(R2-R1*exp(I*A/2.0*(Y1-Y2)));
         tR0H = R1*R2*(1.0-exp(I*A/2.0*(Y1-Y2)))/(R2-R1*exp(I*A/2.0*(Y1-Y2)));
-        cout<<tR00<<endl;
+     //   cout<<tR00<<endl;
         rt.R00.push_back(tR00);
         rt.R0H.push_back(tR0H);
         rt.R01.push_back(tR00-C);

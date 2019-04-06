@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/yuri.dir/main.cpp.obj"
   "CMakeFiles/yuri.dir/Readin.cpp.obj"
   "CMakeFiles/yuri.dir/sdomain.cpp.obj"
+  "CMakeFiles/yuri.dir/Writeout.cpp.obj"
   "yuri.pdb"
   "yuri.exe"
   "yuri.exe.manifest"

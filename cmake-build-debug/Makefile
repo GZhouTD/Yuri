@@ -149,6 +149,33 @@ Readin.cpp.s:
 	$(MAKE) -f CMakeFiles\yuri.dir\build.make CMakeFiles/yuri.dir/Readin.cpp.s
 .PHONY : Readin.cpp.s
 
+Writeout.obj: Writeout.cpp.obj
+
+.PHONY : Writeout.obj
+
+# target to build an object file
+Writeout.cpp.obj:
+	$(MAKE) -f CMakeFiles\yuri.dir\build.make CMakeFiles/yuri.dir/Writeout.cpp.obj
+.PHONY : Writeout.cpp.obj
+
+Writeout.i: Writeout.cpp.i
+
+.PHONY : Writeout.i
+
+# target to preprocess a source file
+Writeout.cpp.i:
+	$(MAKE) -f CMakeFiles\yuri.dir\build.make CMakeFiles/yuri.dir/Writeout.cpp.i
+.PHONY : Writeout.cpp.i
+
+Writeout.s: Writeout.cpp.s
+
+.PHONY : Writeout.s
+
+# target to generate assembly for a file
+Writeout.cpp.s:
+	$(MAKE) -f CMakeFiles\yuri.dir\build.make CMakeFiles/yuri.dir/Writeout.cpp.s
+.PHONY : Writeout.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -215,6 +242,9 @@ help:
 	@echo ... Readin.obj
 	@echo ... Readin.i
 	@echo ... Readin.s
+	@echo ... Writeout.obj
+	@echo ... Writeout.i
+	@echo ... Writeout.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
