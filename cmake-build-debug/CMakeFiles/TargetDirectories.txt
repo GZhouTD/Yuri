@@ -1,3 +1,0 @@
-C:/Users/GQZho/CLionProjects/yuri/cmake-build-debug/CMakeFiles/yuri.dir
-C:/Users/GQZho/CLionProjects/yuri/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/GQZho/CLionProjects/yuri/cmake-build-debug/CMakeFiles/rebuild_cache.dir

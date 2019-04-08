@@ -18,12 +18,12 @@ int main() {
     Sdomain *sdomain = new Sdomain;
     Readin *readin = new Readin;
     Writeout *writeout = new Writeout;
-    crystal = readin->reader("../crystal.dat");
+    crystal = readin->reader("crystal.dat");
 
     double wavelength = h_Plank * c_speed / crystal.photon_en / e_charge;
     double w0 = 2 * pi * c_speed / wavelength;
     double cf = w0 / 2 / pi;
-    freq = readin->freqread("../freq.txt");
+    freq = readin->freqread("freq.txt");
  //   cout<<crystal.xr0<<crystal.xi0<<endl;
   /* debug only
     for (auto it = freq.begin(); it != freq.end(); it++) {
@@ -31,7 +31,7 @@ int main() {
     }
     */
     rt = sdomain->interaction(crystal,freq);
-    jgment = writeout->writer(rt,"../out.dat");
+    jgment = writeout->writer(rt,"out.dat");
  //   cout<<rt.R00[10]<<endl;
     return 0;
 }

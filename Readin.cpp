@@ -18,7 +18,7 @@ Crystal Readin::reader(const string fname) {
     string key;
     int n;
     const double pi = M_PI;
-    fstream f2r(fname);
+    ifstream f2r(fname);
     double tmp;
     cout << "Current working path:  " << getcwd(NULL, 0) << endl;
     if (!f2r) {
@@ -27,13 +27,14 @@ Crystal Readin::reader(const string fname) {
     }
     while (getline(f2r, buffer)) {
         if ((!buffer.compare(0, 1, "#") || buffer.length() < 1)) { continue; }
-        // cout << buffer << endl;
-        if (buffer.compare("=") == 1) {
+        //cout << buffer << endl;
+        if (buffer.compare("=") != 0) {
             n = buffer.find("=");
+            cout<<n<<endl;
             key = buffer.substr(0, n - 1);
             num = buffer.substr(n + 1);
             tmp = atof(num.c_str());
-            //cout<<key<<endl;
+           // cout<<key<<endl;
             // cout<<!key.find("cry_thickness")<<endl;
             if (!key.find("cry_thickness")) { crystal.thickness = tmp; }
             if (!key.find("cry_bragg")) { crystal.bragg = tmp; }
@@ -45,7 +46,7 @@ Crystal Readin::reader(const string fname) {
             if (!key.find("xih")) { crystal.xih = tmp; }
         }
     }
-    /* cout<<crystal.thickness<<endl;
+     /*cout<<crystal.thickness<<endl;
      cout<<crystal.bragg<<endl;
      cout<<crystal.asymmetry<<endl;
      cout<<crystal.photon_en<<endl;

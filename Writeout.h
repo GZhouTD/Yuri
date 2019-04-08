@@ -7,7 +7,7 @@
 
 #include <fstream>
 #include <iostream>
-#include "sdomain.h"
+#include "Sdomain.h"
 using namespace std;
 
 class Writeout {
