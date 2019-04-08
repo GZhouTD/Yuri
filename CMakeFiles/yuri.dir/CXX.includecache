@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/nfs/slac/g/beamphysics/gzhou/Yuri/Readin.cpp
+Readin.h
+/nfs/slac/g/beamphysics/gzhou/Yuri/Readin.h
+unistd.h
+-
+math.h
+-
+iomanip
+-
+
+/nfs/slac/g/beamphysics/gzhou/Yuri/Readin.h
+string
+-
+fstream
+-
+iostream
+-
+vector
+-
+scicont.h
+/nfs/slac/g/beamphysics/gzhou/Yuri/scicont.h
+
+/nfs/slac/g/beamphysics/gzhou/Yuri/scicont.h
+complex
+/nfs/slac/g/beamphysics/gzhou/Yuri/complex
+

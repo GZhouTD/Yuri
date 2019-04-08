@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/yuri.dir/main.cpp.o CMakeFiles/yuri.dir/Readin.cpp.o CMakeFiles/yuri.dir/Sdomain.cpp.o CMakeFiles/yuri.dir/Writeout.cpp.o  -o yuri 

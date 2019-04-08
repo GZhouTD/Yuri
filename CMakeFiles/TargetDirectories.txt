@@ -1,0 +1,3 @@
+/nfs/slac/g/beamphysics/gzhou/Yuri/CMakeFiles/rebuild_cache.dir
+/nfs/slac/g/beamphysics/gzhou/Yuri/CMakeFiles/edit_cache.dir
+/nfs/slac/g/beamphysics/gzhou/Yuri/CMakeFiles/yuri.dir
